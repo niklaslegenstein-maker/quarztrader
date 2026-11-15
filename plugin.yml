@@ -1,0 +1,13 @@
+name: QuartzTrader
+version: ${project.version}
+main: de.quartztrader.QuartzTrader
+api-version: "1.21"
+description: Villager haben eine Chance auf den Trade 3 Smaragde -> 1 Quarz
+commands:
+  quartztrader:
+    description: Plugin neu laden
+    usage: /quartztrader reload
+    permission: quartztrader.admin
+permissions:
+  quartztrader.admin:
+    default: op

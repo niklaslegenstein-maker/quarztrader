@@ -1,0 +1,15 @@
+# Chance in Prozent (0-100), dass ein Villager den Quarz-Trade bekommt.
+# Wird pro Villager nur EINMAL gewürfelt (beim ersten Handeln) und gespeichert.
+chance: 30.0
+
+# Berufe, die den Trade bekommen können (Minecraft-Namen):
+# armorer, butcher, cartographer, cleric, farmer, fisherman, fletcher,
+# leatherworker, librarian, mason, shepherd, toolsmith, weaponsmith
+professions:
+  - cleric
+
+trade:
+  emeralds: 3        # Preis in Smaragden
+  quartz: 1          # Menge an Quarz, die man bekommt
+  max-uses: 12       # Wie oft der Trade bis zum Restock nutzbar ist
+  villager-xp: 5     # XP, die der Villager pro Trade bekommt
